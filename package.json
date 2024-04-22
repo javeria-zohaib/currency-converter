@@ -1,5 +1,5 @@
 {
-  "name": "currency-converter",
+  "name": "currency-converter-code-with-javeria",
   "version": "1.0.0",
   "description": "A currency converter using typescript , node.js  ,chalk and inquirer",
   "main": "index.js",

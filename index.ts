@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk" ;
 let exchange_rate:any= {
@@ -36,4 +37,4 @@ let to_amount=exchange_rate[userAnswer.to_currency];
 let amount=userAnswer.amount;
 let baseAmount=amount/from_amount;
 let convertedAmount=baseAmount * to_amount;
-console.log(`Converted amount= ${convertedAmount.toFixed(2)}`);
+console.log (chalk.yellowBright(`Converted amount= ${convertedAmount.toFixed(2)}`));
